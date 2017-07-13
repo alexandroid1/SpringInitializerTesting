@@ -1,5 +1,7 @@
 package com.oreily.boot.quickstart;
 
+import java.util.Date;
+
 /**
  * Created by Александр on 12.07.2017.
  */
@@ -9,6 +11,8 @@ public class Soldier {
 
     public Integer numberOfBattles;
 
+    public Date joined;
+
     // for JSON using
     public Soldier(){
     }
@@ -17,4 +21,5 @@ public class Soldier {
         this.name = name;
         this.numberOfBattles = numberOfBattles;
     }
+
 }
